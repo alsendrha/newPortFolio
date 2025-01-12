@@ -24,7 +24,16 @@ const Section05 = () => {
             >
               {data.title}
             </motion.p>
-            <div className="absolute w-0 mt-[5vw] group-hover:w-[50%] h-[0.1vw] bg-white transform transition-all duration-[0.5s] ease-out"></div>
+            <div className="absolute w-0 mt-[4vw] flex items-center justify-center group-hover:w-[50%] h-[0.1vw] bg-white transform transition-all duration-[0.5s] ease-out">
+              <div className="text-white  mt-[3vw] opacity-0 group-hover:opacity-100 flex items-center justify-center transform transition-all duration-[0.5s] ease-out">
+                <div className=" px-[1vw] py-[0.1vw] border-[0.1vw] rounded-full border-white">
+                  <p className="text-[1vw]">{data.type}</p>
+                </div>
+                <div className="ml-[0.5vw] hidden group-hover:block transform transition-all duration-[0.5s] ease-out">
+                  <p className="text-[1vw]">{data.content}</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       ))}

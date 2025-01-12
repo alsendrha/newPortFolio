@@ -174,7 +174,7 @@ export const logoData = [
 export const projectData = [
   {
     id: 1,
-    type: "wab",
+    type: "Wab",
     title: "명품관",
     content: "명품 경매장",
     src: "/images/project/명품관.png",
