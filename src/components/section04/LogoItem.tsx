@@ -15,7 +15,7 @@ const LogoItem = ({ item }: LogoItemProps) => {
       <div className="relative w-[100px] h-[100px] rounded-xl bg-[rgba(255,255,255,0.1)]">
         <Image src={item.src} fill sizes="1" alt={item.name} />
       </div>
-      <div>
+      <div className="">
         <p className="text-xl font-bold">{item.name}</p>
       </div>
     </div>
