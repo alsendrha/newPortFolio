@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 
 const NevBar = () => {
   const [scroll, setScroll] = useState(0);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScroll(window.scrollY);
