@@ -1,3 +1,5 @@
+'use client';
+
 import BackgroundImage from "@/components/BackgroundImage";
 import NevBar from "@/components/NevBar";
 import Section01 from "@/components/section01/Section01";

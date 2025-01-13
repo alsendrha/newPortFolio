@@ -1,4 +1,6 @@
 "use client";
+import { navData } from "@/utils/data/listData";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const NevBar = () => {
@@ -16,18 +18,19 @@ const NevBar = () => {
 
   return (
     <nav
-      className={`w-full h-[60px] ${
-        scroll === 0 ? "bg-transparent" : "bg-black"
-      } text-white flex items-center justify-center fixed z-10`}
+      className={`w-full h-[60px] ${scroll === 0 ? "bg-transparent" : "bg-black"
+        } text-white flex items-center justify-center fixed z-10`}
     >
       <div className="w-full flex justify-between items-center max-w-[1170px] px-2">
-        <div>
+        <Link href="/">
           <p className="font-extrabold">MIN YOUNG</p>
-        </div>
+        </Link>
         <ul className="flex gap-8">
-          <li>ABOUT</li>
-          <li>PROJECT</li>
-          <li>CONTACT</li>
+          {navData.map((data, index) => (
+            <Link key={index} href={`#${data}`}>
+              <li>{data}</li>
+            </Link>
+          ))}
         </ul>
       </div>
     </nav>

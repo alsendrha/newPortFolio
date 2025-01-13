@@ -1,3 +1,9 @@
+export const navData = [
+  'ABOUT',
+  'PROJECT',
+  'CONTACT',
+];
+
 export const section1Data = [
   { id: 1, text: "P", delay: 0.5 },
   { id: 2, text: "O", delay: 0.6 },
