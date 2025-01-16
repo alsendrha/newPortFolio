@@ -1,8 +1,6 @@
 import { projectData } from "@/utils/data/listData";
-import Image from "next/image";
 import React from "react";
 import ListItem from "./listitem/ListItem";
-import Title from "../Title";
 
 const Section05 = () => {
   return (
@@ -11,7 +9,6 @@ const Section05 = () => {
         <ListItem key={data.id} data={data} />
       ))}
     </section>
-
   );
 };
 

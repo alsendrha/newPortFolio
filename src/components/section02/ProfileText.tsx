@@ -2,13 +2,13 @@ import React from "react";
 
 const ProfileText = () => {
   return (
-    <div className="p-2 text-white w-[600px] h-[580px]  flex items-center justify-center">
-      <div>
+    <div className="p-2 text-white w-full pr-20 flex items-center justify-start">
+      <div className="w-[80%]">
         <p className="text-4xl font-bold">안녕하세요!</p>
         <p className="text-4xl font-bold mt-2">
           프론트엔드 개발자 김민영입니다.
         </p>
-        <p className="mt-3">
+        <p className="mt-3 text-wrap">
           코로나를 계기로 개발을 시작하여 React와 React Native로 다양한
           프로젝트를 진행해왔으며, 기획과 배포 경험도 갖추고 있습니다. flutter로
           만든 첫 상용앱인 Camter앱을 만들며 프론트엔드의 매력을 느껴 프론트엔드

@@ -3,8 +3,8 @@ import React from "react";
 
 const ProfileImage = () => {
   return (
-    <div className="w-[600px] h-[580px]  flex items-center justify-center">
-      <div className="w-[200px] h-[200px] relative">
+    <div className="w-full pl-40 flex items-center justify-center">
+      <div className="w-[200px] h-[200px] relative rounded-xl overflow-hidden">
         <Image src={"/images/image01.png"} fill sizes="1" alt="이미지" />
       </div>
     </div>

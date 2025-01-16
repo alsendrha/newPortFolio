@@ -1,8 +1,4 @@
-export const navData = [
-  'ABOUT',
-  'PROJECT',
-  'CONTACT',
-];
+export const navData = ["ABOUT", "PROJECT", "CONTACT"];
 
 export const section1Data = [
   { id: 1, text: "P", delay: 0.5 },
@@ -184,6 +180,7 @@ export const projectData = [
     title: "명품 중고 경매 서비스",
     content: "명품관",
     src: "/images/project/명품관.png",
+    skills: ["Nextjs", "Typescript", "Tailwindcss", "React-query", "Zustand"],
     link: "",
     github: "",
   },
@@ -193,6 +190,7 @@ export const projectData = [
     title: "하루 5문제 영어 학습 서비스",
     content: "3ENG 하루 영어",
     src: "/images/project/오분영어.png",
+    skills: ["React-vite", "Typescript", "Vanilla-extract", "Zustand"],
     link: "",
     github: "",
   },
@@ -202,6 +200,7 @@ export const projectData = [
     title: "당큰마켓 클론 사이트",
     content: "배추마켓",
     src: "/images/project/배추마켓.png",
+    skills: ["React", "Javascript", "Firebase"],
     link: "",
     github: "",
   },
@@ -211,6 +210,14 @@ export const projectData = [
     title: "냉장고 재료로 만드는 요리 레시피 서비스",
     content: "프리지셰프(fridgeChef)",
     src: "/images/project/프리지셰프.png",
+    skills: [
+      "React-native",
+      "Typescript",
+      "React-query",
+      "Zustand",
+      "Kakao-API",
+      "Google-API",
+    ],
     link: "",
     github: "",
   },
@@ -220,6 +227,14 @@ export const projectData = [
     title: "우리나라 여행지 정보 서비스",
     content: "코리아투어(우리나라 여행)",
     src: "/images/project/코리아투어.png",
+    skills: [
+      "React-native",
+      "Typescript",
+      "React-query",
+      "Zustand",
+      "Firebase",
+      "Google-Map-API",
+    ],
     link: "",
     github: "",
   },
@@ -229,3 +244,37 @@ export const contactData = [
   { id: 1, title: "E-MAIL", content: "alsendrha@naver.com" },
   { id: 2, title: "TEL", content: "010-9898-7069" },
 ];
+
+export const backColor = (item: string) => {
+  switch (item) {
+    case "React":
+      return "bg-[#61DAFB]";
+    case "React-native":
+      return "bg-[#00a4d1]";
+    case "Nextjs":
+      return "bg-black";
+    case "Typescript":
+      return "bg-[#3178C6]";
+    case "Javascript":
+      return "bg-[#F7DF1E]";
+    case "Tailwindcss":
+      return "bg-[#39bef7]";
+    case "Vanilla-extract":
+      return "bg-[linear-gradient(to_right,#f78db0,#4adaf0)]";
+    case "Zustand":
+      return "bg-[#453f38]";
+    case "React-vite":
+      return "bg-[linear-gradient(to_right,#60a9fc,#ffd026,#9e5bfc)]";
+    case "React-query":
+      return "bg-[linear-gradient(to_right,#ff4252,#fade55)]";
+    case "Firebase":
+      return "bg-[linear-gradient(to_right,#f5810c,#ffc929)]";
+    case "Google-Map-API":
+    case "Google-API":
+      return "bg-[linear-gradient(to_right,#f73a00,#f7bb07,#4bab4e,#1872cc)]";
+    case "Kakao-API":
+      return "bg-[#FFCD00]";
+    default:
+      return "bg-transparent";
+  }
+};
