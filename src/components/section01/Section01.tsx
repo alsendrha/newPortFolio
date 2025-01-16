@@ -1,7 +1,6 @@
 import { section1Data } from "@/utils/data/listData";
 import React from "react";
 import MainText from "./MainText";
-import Image from "next/image";
 
 const Section01 = () => {
   return (

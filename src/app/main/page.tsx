@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import BackgroundImage from "@/components/BackgroundImage";
 import NevBar from "@/components/NevBar";
@@ -13,8 +13,8 @@ import React from "react";
 const Main = () => {
   return (
     <div>
-      <BackgroundImage />
       <NevBar />
+      <BackgroundImage />
       <Section01 />
       <Section02 />
       <Section03 />

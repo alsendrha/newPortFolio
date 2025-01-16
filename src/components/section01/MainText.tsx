@@ -19,7 +19,7 @@ const MainText = ({ data, lastText }: MainTextProps) => {
       initial={{ opacity: 0, y: 50, rotate: 45 }}
       whileInView={{ opacity: 1, y: 0, rotate: 0 }}
       transition={{
-        duration: 0.3,
+        duration: 0.1,
         delay: data.delay,
         ease: "easeOut",
         type: "spring",

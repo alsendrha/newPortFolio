@@ -4,7 +4,7 @@ import ListItem from "./listitem/ListItem";
 
 const Section05 = () => {
   return (
-    <section id="PROJECT" className="w-full bg-[#222] flex flex-wrap">
+    <section id="PROJECT" className="w-full flex flex-wrap">
       {projectData.map((data) => (
         <ListItem key={data.id} data={data} />
       ))}
