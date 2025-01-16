@@ -19,7 +19,7 @@ type ListItemProps = {
 
 const ListItem = ({ data }: ListItemProps) => {
   return (
-    <div className="w-1/2 h-[25vw] relative group overflow-hidden">
+    <div className="w-1/2 max-[1000px]:w-full h-[25vw] max-[1000px]:h-[55vw] relative group overflow-hidden">
       <ListImage src={data.src} />
       <Link
         href={{
