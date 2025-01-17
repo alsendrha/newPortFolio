@@ -1,7 +1,6 @@
 import Link from "next/link";
-import React from "react";
-import { twMerge } from "tailwind-merge";
 import { FaGithub } from "react-icons/fa";
+import { twMerge } from "tailwind-merge";
 type TopBannerProps = {
   project: {
     type: string;

@@ -1,5 +1,4 @@
 import { projectData } from "@/utils/data/listData";
-import React from "react";
 import ListItem from "./listitem/ListItem";
 
 const Section05 = () => {

@@ -1,5 +1,3 @@
-import React from "react";
-
 type MenuButtonProps = {
   onClick: () => void;
   menuOpen: boolean;

@@ -1,6 +1,5 @@
-import React from "react";
-import Title from "../Title";
 import { logoData } from "@/utils/data/listData";
+import Title from "../Title";
 import LogoItem from "./LogoItem";
 
 const Section04 = () => {

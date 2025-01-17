@@ -1,6 +1,5 @@
-import React from "react";
-import Title from "../Title";
 import { profileData } from "@/utils/data/listData";
+import Title from "../Title";
 import ContentText from "./ContentText";
 
 const Section03 = () => {

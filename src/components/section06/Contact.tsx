@@ -1,5 +1,3 @@
-import React from "react";
-
 type ContactProps = {
   title: string;
   content: string;

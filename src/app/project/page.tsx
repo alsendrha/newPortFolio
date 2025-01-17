@@ -8,7 +8,7 @@ import TopBanner from "@/components/project/TopBanner";
 import TopImage from "@/components/project/TopImage";
 import { projectData } from "@/utils/data/listData";
 import { useSearchParams } from "next/navigation";
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 
 const ProjectContent = () => {
   const params = useSearchParams().get("id");

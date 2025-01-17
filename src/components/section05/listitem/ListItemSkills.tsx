@@ -1,5 +1,4 @@
 import { backColor } from "@/utils/data/listData";
-import React from "react";
 import { twMerge } from "tailwind-merge";
 
 type ListItemSkillsProps = {

@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProfileText = () => {
   return (
     <div className="p-2 text-white w-full pr-20 max-[1410px]:pr-10 max-[1000px]:px-32 max-[740px]:px-10 max-[1000px]:mt-5 max-[1000px]:mb-20 transformation flex items-center justify-start">

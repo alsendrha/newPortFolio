@@ -1,9 +1,8 @@
-import React from "react";
-import ListImage from "./ListImage";
-import ListBottomText from "./ListBottomText";
-import ListItemTitle from "./ListItemTitle";
 import Link from "next/link";
+import ListBottomText from "./ListBottomText";
+import ListImage from "./ListImage";
 import ListItemSkills from "./ListItemSkills";
+import ListItemTitle from "./ListItemTitle";
 
 type ListItemProps = {
   data: {

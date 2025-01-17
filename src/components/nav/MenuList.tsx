@@ -1,6 +1,5 @@
 import { navData } from "@/utils/data/listData";
 import Link from "next/link";
-import React from "react";
 
 type MenuListProps = {
   menuOpen: boolean;

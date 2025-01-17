@@ -1,5 +1,3 @@
-import React from "react";
-
 type OverviewProps = {
   project: {
     overview: string;

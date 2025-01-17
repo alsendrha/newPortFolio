@@ -1,5 +1,4 @@
 import { section1Data } from "@/utils/data/listData";
-import React from "react";
 import MainText from "./MainText";
 
 const Section01 = () => {

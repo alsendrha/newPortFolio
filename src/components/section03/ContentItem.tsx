@@ -1,5 +1,3 @@
-import React from "react";
-
 type ContentItemProps = {
   item: {
     id: number;

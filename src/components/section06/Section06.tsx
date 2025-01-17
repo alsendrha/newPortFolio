@@ -1,6 +1,5 @@
-import React from "react";
-import Contact from "./Contact";
 import { contactData } from "@/utils/data/listData";
+import Contact from "./Contact";
 import ContactLast from "./ContactLast";
 
 const Section06 = () => {
