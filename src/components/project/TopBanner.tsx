@@ -28,7 +28,7 @@ const TopBanner = ({ project }: TopBannerProps) => {
           <p className="text-[#666666]">서비스 페이지</p>
         </Link>
         <p className="text-[#666666]">|</p>
-        <Link href={project?.github!} target="_blank">
+        <Link href={project?.github} target="_blank">
           <div className="flex items-center">
             <FaGithub size={30} color="#666666" />
             <p className="text-[#666666]">&nbsp;깃허브</p>

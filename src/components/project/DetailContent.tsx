@@ -16,7 +16,7 @@ const DetailContent = ({ project }: DetailContentProps) => {
           project?.type === "APP" ? "h-[195.975vw]" : "h-[123.536vw]"
         } relative`}
       >
-        <Image src={project?.projectImage[1]!} fill sizes="1" alt="두번째" />
+        <Image src={project?.projectImage[1]} fill sizes="1" alt="두번째" />
       </div>
     </div>
   );
