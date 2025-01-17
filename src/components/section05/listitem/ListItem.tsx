@@ -3,7 +3,6 @@ import ListImage from "./ListImage";
 import ListBottomText from "./ListBottomText";
 import ListItemTitle from "./ListItemTitle";
 import Link from "next/link";
-import { twMerge } from "tailwind-merge";
 import ListItemSkills from "./ListItemSkills";
 
 type ListItemProps = {
