@@ -2,10 +2,12 @@ import React from "react";
 
 const ProfileText = () => {
   return (
-    <div className="p-2 text-white w-full pr-20 flex items-center justify-start">
-      <div className="w-[80%]">
-        <p className="text-4xl font-bold">안녕하세요!</p>
-        <p className="text-4xl font-bold mt-2">
+    <div className="p-2 text-white w-full pr-20 max-[1410px]:pr-10 max-[1000px]:px-32 max-[740px]:px-10 max-[1000px]:mt-5 transformation flex items-center justify-start">
+      <div className="w-[80%] max-[1410px]:w-full">
+        <p className="text-4xl font-bold max-[1000px]:text-2xl transformation">
+          안녕하세요!
+        </p>
+        <p className="text-4xl font-bold mt-2 max-[1000px]:text-2xl transformation">
           프론트엔드 개발자 김민영입니다.
         </p>
         <p className="mt-3 text-wrap">

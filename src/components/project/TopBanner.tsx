@@ -20,7 +20,7 @@ const TopBanner = ({ project }: TopBannerProps) => {
       )}
     >
       <div className="opacity-0">github</div>
-      <div className="text-7xl max-[850px]:text-[40px] transform transition-all duration-[0.5s] ease-out">
+      <div className="text-[4.5vw] max-[850px]:text-[7vw] transformation">
         {project?.content}
       </div>
       <div className="text-2xl pb-5 flex gap-5">

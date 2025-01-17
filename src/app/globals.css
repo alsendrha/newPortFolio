@@ -8,3 +8,12 @@ body {
   background: var(--background);
   font-family: "SUIT Variable", Helvetica, sans-serif;
 }
+
+.transformation {
+  transition: all 0.3s ease-out;
+}
+
+.bar_menu {
+  position: absolute;
+  flex-direction: column;
+}

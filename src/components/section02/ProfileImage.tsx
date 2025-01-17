@@ -3,7 +3,7 @@ import React from "react";
 
 const ProfileImage = () => {
   return (
-    <div className="w-full pl-40 flex items-center justify-center">
+    <div className="w-full pl-40 max-[1410px]:pl-10 flex items-center justify-center">
       <div className="w-[250px] h-[333px] relative rounded-xl overflow-hidden">
         <Image src={"/images/my_photo.jpg"} fill sizes="1" alt="이미지" />
       </div>
