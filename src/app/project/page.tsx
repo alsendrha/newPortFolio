@@ -6,9 +6,7 @@ import Overview from "@/components/project/Overview";
 import ProjectSkill from "@/components/project/ProjectSkill";
 import TopBanner from "@/components/project/TopBanner";
 import TopImage from "@/components/project/TopImage";
-import Title from "@/components/Title";
 import { projectData } from "@/utils/data/listData";
-import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import React, { Suspense } from "react";
 
