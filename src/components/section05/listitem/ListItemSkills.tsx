@@ -4,6 +4,7 @@ import { twMerge } from "tailwind-merge";
 type ListItemSkillsProps = {
   data: {
     skills: string[];
+    participation: string;
   };
 };
 
@@ -21,7 +22,9 @@ const ListItemSkills = ({ data }: ListItemSkillsProps) => {
           {item}
         </div>
       ))}
+
     </div>
+
   );
 };
 

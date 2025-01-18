@@ -196,6 +196,7 @@ export const projectData = [
       "/images/project/명품관메인.png",
       "/images/project/명품관2.png",
     ],
+    participation: "모든 페이지 개발 100%",
   },
   {
     id: 2,
@@ -218,6 +219,7 @@ export const projectData = [
       "/images/project/오븐영어메인.png",
       "/images/project/오븐영어2.png",
     ],
+    participation: "난이도 선택, 날짜 선택, 앱바, 학습공간 페이지 총50%",
   },
   {
     id: 3,
@@ -239,6 +241,7 @@ export const projectData = [
       "/images/project/배추마켓메인.png",
       "/images/project/배추마켓2.png",
     ],
+    participation: "모든 페이지 개발 100%",
   },
   {
     id: 4,
@@ -270,6 +273,7 @@ export const projectData = [
       "/images/project/프리지셰프메인.png",
       "/images/project/프리지셰프2.png",
     ],
+    participation: "모든 페이지 개발 100%",
   },
   {
     id: 5,
@@ -301,6 +305,7 @@ export const projectData = [
       "/images/project/코리아투어메인.png",
       "/images/project/코리아투어2.png",
     ],
+    participation: "모든 페이지 개발 100%",
   },
 ];
 
