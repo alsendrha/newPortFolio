@@ -19,6 +19,17 @@ const NevBar = () => {
     };
   }, []);
 
+  const handleNavClick = (e: React.MouseEvent, id: string) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      const navbarHeight = document.querySelector("nav")?.clientHeight || 0;
+      const offsetTop =
+        element.getBoundingClientRect().top + window.scrollY - navbarHeight;
+      window.scrollTo({ top: offsetTop, behavior: "smooth" });
+    }
+  };
+
   return (
     <nav
       className={`w-full h-[60px] ${
@@ -32,7 +43,7 @@ const NevBar = () => {
             menuOpen={menuOpen}
             onClick={() => setMenuOpen(!menuOpen)}
           />
-          <MenuList menuOpen={menuOpen} onClick={() => setMenuOpen(false)} />
+          <MenuList menuOpen={menuOpen} handleNavClick={handleNavClick} />
         </div>
       </div>
     </nav>

@@ -3,10 +3,10 @@ import Link from "next/link";
 
 type MenuListProps = {
   menuOpen: boolean;
-  onClick: () => void;
+  handleNavClick: (e: React.MouseEvent, id: string) => void;
 };
 
-const MenuList = ({ menuOpen, onClick }: MenuListProps) => {
+const MenuList = ({ menuOpen, handleNavClick }: MenuListProps) => {
   return (
     <ul
       className={`flex gap-8 max-[1000px]:flex-col max-[1000px]:absolute max-[1000px]:pt-5 max-[1000px]:gap-4  max-[1000px]:items-center max-[1000px]:-left-5 ${
@@ -14,7 +14,11 @@ const MenuList = ({ menuOpen, onClick }: MenuListProps) => {
       }`}
     >
       {navData.map((data, index) => (
-        <Link key={index} href={`#${data}`} onClick={onClick}>
+        <Link
+          key={index}
+          href={`#${data}`}
+          onClick={(e) => handleNavClick(e, data)}
+        >
           <li>{data}</li>
         </Link>
       ))}
