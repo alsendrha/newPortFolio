@@ -10,7 +10,7 @@ type ListItemSkillsProps = {
 
 const ListItemSkills = ({ data }: ListItemSkillsProps) => {
   return (
-    <div className="absolute text-white bottom-[7vw] max-[1000px]:bottom-[15vw] left-0 z-10 w-full gap-[1vw] flex justify-center items-center  opacity-0 group-hover:opacity-100 transition-all duration-[.5s] ease-out">
+    <div className="absolute text-white bottom-[10vw] max-[1000px]:bottom-[15vw] left-0 z-10 w-full gap-[1vw] flex justify-center items-center  opacity-0 group-hover:opacity-100 transition-all duration-[.5s] ease-out">
       {data.skills.map((item, index) => (
         <div
           key={index}
@@ -22,9 +22,7 @@ const ListItemSkills = ({ data }: ListItemSkillsProps) => {
           {item}
         </div>
       ))}
-
     </div>
-
   );
 };
 
