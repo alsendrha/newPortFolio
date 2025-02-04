@@ -10,7 +10,7 @@ type ListItemSkillsProps = {
 
 const ListItemSkills = ({ data }: ListItemSkillsProps) => {
   return (
-    <div className="absolute text-white bottom-[10vw] max-[1000px]:bottom-[25vw] left-0 z-10 w-full gap-[1vw] flex justify-center items-center  opacity-0 group-hover:opacity-100 transition-all duration-[.5s] ease-out">
+    <div className=" text-white pt-[1.5vw] w-full gap-[1vw] flex justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-[.5s] ease-out">
       {data.skills.map((item, index) => (
         <div
           key={index}
