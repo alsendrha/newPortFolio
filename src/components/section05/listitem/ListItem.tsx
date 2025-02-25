@@ -8,6 +8,7 @@ type ListItemProps = {
     title: string;
     type: string;
     content: string;
+    date: string;
     participation: string;
   };
 };

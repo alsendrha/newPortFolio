@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ListBottomText from "./ListBottomText";
 import ListItemContribute from "./ListItemContribute";
+import ListItemDate from "./ListItemDate";
 import ListItemSkills from "./ListItemSkills";
 import ListItemTitle from "./ListItemTitle";
 
@@ -11,6 +12,7 @@ type ListImageProps = {
     src: string;
     skills: string[];
     title: string;
+    date: string;
     type: string;
     content: string;
     participation: string;
@@ -34,6 +36,7 @@ const ListImage = ({ data }: ListImageProps) => {
           <ListBottomText data={data} />
           <ListItemSkills data={data} />
           <ListItemContribute participation={data.participation} />
+          <ListItemDate data={data} />
         </div>
       </Link>
     </div>
