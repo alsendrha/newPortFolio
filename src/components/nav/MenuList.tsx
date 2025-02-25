@@ -9,7 +9,7 @@ type MenuListProps = {
 const MenuList = ({ menuOpen, handleNavClick }: MenuListProps) => {
   return (
     <ul
-      className={`flex gap-8 max-[1000px]:flex-col max-[1000px]:absolute max-[1000px]:pt-5 max-[1000px]:gap-4  max-[1000px]:items-center max-[1000px]:-left-5 ${
+      className={`flex gap-8 max-[1000px]:flex-col bg-black bg-opacity-50 p-5 rounded-xl max-[1000px]:absolute max-[1000px]:pt-5 max-[1000px]:gap-4  max-[1000px]:items-center max-[1000px]:-left-[37px] ${
         menuOpen ? "max-[1000px]:flex" : "max-[1000px]:hidden"
       }`}
     >
