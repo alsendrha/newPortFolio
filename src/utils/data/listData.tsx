@@ -232,7 +232,7 @@ export const projectData = [
       "/images/logo/firebase.png",
       "/images/logo/google.png",
     ],
-    link: "",
+    link: "https://play.google.com/store/apps/details?id=com.koreatourapp",
     github: "https://github.com/alsendrha/RN_KoreaTourApp",
     projectImage: [
       "/images/project/코리아투어메인.png",
