@@ -281,7 +281,7 @@ export const projectData = [
       "/images/logo/vanilla-extract.png",
       "/images/logo/zustand.png",
     ],
-    link: "https://3eng.site/",
+    link: "3eng.netlify.app",
     github: "https://github.com/alsendrha/oz_01_collabo-003",
     projectImage: [
       "/images/project/오븐영어메인.png",
@@ -304,7 +304,7 @@ export const projectData = [
       "/images/logo/javascript.png",
       "/images/logo/firebase.png",
     ],
-    link: "https://alsendrha.shop/",
+    link: "crud-test-app-38ca4.web.app",
     github: "https://github.com/alsendrha/firebaseCRUD",
     projectImage: [
       "/images/project/배추마켓메인.png",
